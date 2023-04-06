@@ -1,7 +1,7 @@
 body{
     background: #040c1f;
     color: aqua;
-    background: fixed url("../../project/scource/bg6.jpg") no-repeat center bottom;
+    background: fixed url("/project/scource/bg6.jpg") no-repeat center bottom;
     min-width: 1500px;
     display: flex;
     justify-content: center;

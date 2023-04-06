@@ -15,7 +15,7 @@ func InitRouter() *gin.Engine {
 	router.Use(gin.Logger(), gin.Recovery())
 
 	router.Static("/project", "/home/ubuntu/myProj/race-proj/project")
-	router.LoadHTMLFiles("project/html/HomePage.html", "project/html/scan.html")
+	router.LoadHTMLFiles("project/html/HomePage.html")
 
 	router.GET("/", func(ctx *gin.Context) {
 		ctx.HTML(http.StatusOK, "HomePage.html", nil)
