@@ -1,0 +1,75 @@
+body{
+    background: #040c1f;
+    color: aqua;
+    /* background: fixed url('../scource/bg6.jpg') no-repeat center bottom; */
+    min-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.container{
+    width: 100%;
+}
+.container .header{
+    width: 100%;
+    height: 40px;
+    /* background-color: red; */
+    text-align: center;
+}
+.container .header .middle{
+    width: 850px;
+    height: 40px;
+    /* background-color: blue; */
+    margin: 0 auto;
+}
+.container .header .middle .topui li{
+    float: left;
+    /* background: green; */
+    width: 80px;
+    height: 40px;
+    margin-left: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+/* ---------------------------------------------------------------------- */
+.container .middle_area{
+    width: 100%;
+    height: 650px;
+    /* background-color:aqua; */
+    margin: 0 auto;
+}
+.container .middle_area .scan_header{
+    width: 500px;
+    height: 60px;
+    background-color: rgba(2, 158, 249, 0.5);
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+    border: aqua solid 3px;
+
+}
+.container .middle_area .scan_header input{
+    width: 440px;
+    height: 40px;
+    /* display: inline; */
+    margin-top: 10px;
+    background: none;
+    line-height: 40px;
+    color: aqua;
+    font-size: 30px;
+    
+}
+.container .middle_area .scan_header img{
+    width: 40px;
+    height: 40px;
+    /* background-color: black; */
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
